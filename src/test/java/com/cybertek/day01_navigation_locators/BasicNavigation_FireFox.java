@@ -13,7 +13,12 @@ public class BasicNavigation_FireFox {
         // 2. Create Webdriver instance using FirefoxDriver object
         WebDriver driver = new FirefoxDriver();
         // 3. navigate to "https://cybertekschool.com"
+        driver.get("https://cybertekschool.com");
 
+
+        System.out.println("About to quit ");
+        // quit the browser
+        driver.quit();
 
     }
 
