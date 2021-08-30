@@ -33,6 +33,15 @@ public class BasicNavigation {
         driver.navigate().refresh();
 
 
+        // closing browser
+        /*
+         * close() method , will close current tab
+         * quit() method , will close all tabs if there is more than one
+         * */
+//        driver.close();
+        driver.quit();
+
+
     }
 
 }
