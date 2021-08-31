@@ -63,8 +63,8 @@ We will focus on one of few core feature that relevant to us to get start easily
 >In Maven, dependency is another archive—JAR, ZIP, and so on—which your current project needs in order to compile, build, test, and/or to run. The dependencies are gathered in the pom. ... If they are not present there, then Maven will download them from a remote repository and store them in the local repository
 
 In order to work with selenium we will need `selenium-java` dependency.
-In order to easy manage browser specific drivers we need WebDriverManager dependency. 
-These dependencies can be added into pom.xml file in the project we are about to create so it can download it from maven [central repository](https://mvnrepository.com/).
+In order to easy manage browser specific drivers we need `WebDriverManager` dependency. 
+These dependencies can be added into `pom.xml` file in the project we are about to create so it can download it from maven [central repository](https://mvnrepository.com/).
 
 # Setting up Maven Project in IntelliJ 
 >IntelliJ already come with maven bundled so no separate download or set up needed at this moment for easy start.
