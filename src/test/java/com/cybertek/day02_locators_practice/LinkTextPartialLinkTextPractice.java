@@ -29,7 +29,7 @@ public class LinkTextPartialLinkTextPractice {
 
         // click on second link , either full linkText or PartialLinkText
         // driver.findElement(By.linkText("Add/Remove Elements")).click();
-        // Partial link text will return first match if you have multiple
+        // Partial link text will return first match if you have multiple elements
         WebElement addOrRemoveLink = driver.findElement(By.partialLinkText("Add/Remove"));
         addOrRemoveLink.click();
         // click on "Home" link to go back to home
