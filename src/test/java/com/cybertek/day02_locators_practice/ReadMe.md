@@ -7,7 +7,7 @@
 
 [Recap](./../day01_navigation_locators/ReadMe.md) on 
 - Navigation methods :
-  `- driver.get("Your Full URL")`
+  - `- driver.get("Your Full URL")`
   - `driver.navigate().to("Your Full URL")`
   - `driver.navigate().back()`
   - `driver.navigate().forward()`
