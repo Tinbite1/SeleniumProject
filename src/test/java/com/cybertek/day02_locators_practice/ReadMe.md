@@ -6,12 +6,22 @@
 - How to run initial browser navigation
 
 [Recap](./../day01_navigation_locators/ReadMe.md) on 
-- Navigation methods : 
+- Navigation methods :
+  `- driver.get("Your Full URL")`
+  - `driver.navigate().to("Your Full URL")`
+  - `driver.navigate().back()`
+  - `driver.navigate().forward()`
+  - `driver.navigate().refresh()`
+- Close the browser :
+  - `driver.close()`
+  - `driver.quir()`
 - Window management methods 
+  - `driver.manage().window().fullscreen();`
+  - `driver.manage().window().maximize();
 - Inspecting elements to learn about tag and attributes 
-- `findElement(By.id("unique id"))`
-- `findElement(By.name("name goes here"))`
-- `findElement(By.linkText("text of <a> tag"))`
+  - `findElement(By.id("unique id"))`
+  - `findElement(By.name("name goes here"))`
+  - `findElement(By.linkText("text of <a> tag"))`
 
 --- 
 ## FaceBook Homework practice 
