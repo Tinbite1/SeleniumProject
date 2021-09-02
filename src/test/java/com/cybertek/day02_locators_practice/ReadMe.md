@@ -161,3 +161,31 @@ for( WebElement eachElement :allLinks ){
 
 We will use both `findElement` and `findElements` more as we progress to learn different type of locators
 
+## Homework 1:
+
+1. navigate to https://google.com
+2. search for `selenium` 
+3. click google search button
+4. identify the div that hold the search result count on next page `About 95,900,000 results (0.58 seconds)` 
+5. get the text of that element
+6. Optionally , if you want some java practice , go ahead and extract the number of result and save it into long variable OPTIONALLy
+7. get all the link that contain text `selenium` into a List<WebElement>
+8. get the count
+9. get the first one text
+10. get the last one text
+11. iterate over the list and print the text of each link
+12. watch the short to learn more about `findElement(By.tagName("tag here"))`
+13. watch the short to learn more about `element.getAttribute("attribute goes here")`  
+
+
+##  Homework 2
+
+1. open chrome and navigate to http://zero.webappsecurity.com/
+2. verify the title is `Zero - Personal Banking - Loans - Credit Cards` with if statement
+3. click on `signin button`
+4. verify the title is "Zero- Log in"
+5. enter text as "username" into username box 
+6. enter text "password" into password box 
+7. submit by clicking login button
+8. verify you are at "Zero - Account Summary" page by checking title
+9. now use your imagination to play around here and explore , automate within the capacity we already have so far.
