@@ -7,14 +7,14 @@
 
 [Recap](./../day01_navigation_locators/ReadMe.md) on 
 - Navigation methods :
-  - `- driver.get("Your Full URL")`
+  - `driver.get("Your Full URL")`
   - `driver.navigate().to("Your Full URL")`
   - `driver.navigate().back()`
   - `driver.navigate().forward()`
   - `driver.navigate().refresh()`
 - Close the browser :
   - `driver.close()`
-  - `driver.quir()`
+  - `driver.quit()`
 - Window management methods 
   - `driver.manage().window().fullscreen();`
   - `driver.manage().window().maximize();
