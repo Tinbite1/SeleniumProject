@@ -41,6 +41,12 @@ public class FindElementByTagName {
             System.out.println("eachElement.getAttribute(\"href\") = " + eachElement.getAttribute("href"));
         }
 
+        // get first element with <h1> tag and get the text out of it
+        WebElement firstH1TagElm = driver.findElement(By.tagName("h1")) ;
+        System.out.println("firstH1TagElm.getText() = " + firstH1TagElm.getText());
+
+
+        driver.quit();
 
 
     }
