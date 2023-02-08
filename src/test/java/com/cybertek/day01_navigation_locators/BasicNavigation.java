@@ -8,7 +8,7 @@ public class BasicNavigation {
 
     public static void main(String[] args) {
 
-        // set up chrome drive
+        // set up chrome drives
         WebDriverManager.chromedriver().setup();
         // create ChromeDriver Object
         WebDriver driver = new ChromeDriver();
