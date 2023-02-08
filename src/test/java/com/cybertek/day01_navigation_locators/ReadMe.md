@@ -2,7 +2,7 @@
 
 ## Selenium Starter
 ```java
-// set up chrome driver
+// set up chrome drivers
 WebDriverManager.chromedriver().setup();
 // create ChromeDriver Object
 WebDriver driver = new ChromeDriver();
